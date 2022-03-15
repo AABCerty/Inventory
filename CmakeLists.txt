@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(inventory)
+
+
+
+add_executable(inventory    main.cpp
+                            ArmourItem.cpp 
+                            Inventory.cpp
+                            Item.cpp
+                            MeleeItem.cpp
+                            Modificator.cpp
+                            RangeItem.cpp)
+
+
+
+set_target_properties(inventory PROPERTIES CXX_STANDARD 17)
+
+
+
+
+
+
+
+
+
+
+
+
